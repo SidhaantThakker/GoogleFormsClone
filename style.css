@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #e3cfe6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit{
+    width: 6vw;
+    height: 4vh;
+    padding-top: 0.5vh;
+    font-size: 1.5vh;
+    font-weight: 550;
+    background: #71277e;
+    color: white;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+.title{
+    font-size: 2vh;
+}
+
+.subtitle{
+    font-size: 1.5vh;
+    margin-top: 1vh;
+}
+
+.container{
+    width: 70vw;
+}
+
+.subcontainer{
+    width: 100%;
+    height: 18vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background: white;
+    border-radius: 10px;
+    padding-left: 3vw;
+}
+
+.headingcard{
+    border-top: 1.5vh solid #71277e;
+    height: 19vh;
+}
+
+.heading{
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    font-size: 5vh
+}
+
+.subheading{
+    margin-top: 2vh;
+
+}
+
+.required{
+    margin-top: 3vh;
+    color: red;
+}
+
+.namecard{
+    padding-top: 2vh;
+}
+
+input[type=text]{
+    font-size: 1.5vh;
+    padding-top: 0.5vh;
+    padding-left: 0.5vw;
+    border: none;
+    border-bottom: 0.1vh solid #aaa;
+    height: 4vh;
+    width: 45%;
+    margin-top: 2vh;
+}
+input[type=text]{
+    outline: none;
+}
+
+::placeholder { 
+    color: #444;
+    opacity: 1; 
+}
+  
+:-ms-input-placeholder { 
+    color: #444;
+}
+  
+::-ms-input-placeholder {
+    color: #444;
+}
+
+
