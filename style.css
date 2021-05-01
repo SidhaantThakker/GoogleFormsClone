@@ -76,6 +76,7 @@ body{
 /* Name input CSS */
 .namecard{
     padding-top: 2vh;
+    height: 15vh;
 }
 
 input[type=text]{
@@ -116,7 +117,7 @@ input[type=text]{
 }
 
 .radiooption{
-    margin-left: -3vh;
+    margin-left: -1.5vw;
 }
 
 input[type=radio]{
@@ -125,5 +126,15 @@ input[type=radio]{
     margin-top: 2vh;
 }
 
+/* Checkboxes Button CSS */
+
+.checkboxcard{
+    padding-top: 2vh;
+    height: 25vh;
+}
+
+.checkoption{
+    margin-top: 1vh;
+}
 
 
